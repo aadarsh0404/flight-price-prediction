@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 app = Flask(__name__)
-data = pd.read_excel('train.xlsx')
+data = pd.read_excel('train.xlsx', engine='openpyxl')
 model = pickle.load(open('model.pkl','rb'))
 data.Additional_Info = np.where(data.Additional_Info=='No Info','No info',data.Additional_Info)
 
