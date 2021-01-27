@@ -21,6 +21,7 @@ entrypoints==0.3
 et-xmlfile==1.0.1
 Flask==1.1.2
 future==0.18.2
+gunicorn==19.9.0
 helpdev==0.7.1
 hyperopt==0.2.5
 imagesize==1.2.0
@@ -46,7 +47,7 @@ numpy==1.19.5
 opencv-contrib-python==4.2.0.32
 openpyxl==3.0.6
 optuna==2.4.0
-pandas==1.1.2
+pandas==1.1.5
 parso==0.7.0
 pathspec==0.8.1
 pathtools==0.1.2
@@ -66,7 +67,6 @@ PyQtWebEngine==5.12.1
 pyreadline==2.1
 python-dateutil==2.8.1
 python-editor==1.0.4
-pywin32==300
 pywinpty==0.5.7
 PyYAML==5.4.1
 pyzmq==21.0.1
@@ -79,13 +79,6 @@ scikit-learn==0.24.1
 scipy==1.6.0
 seaborn==0.11.1
 Send2Trash==1.5.0
-sphinxcontrib-applehelp==1.0.2
-sphinxcontrib-devhelp==1.0.2
-sphinxcontrib-htmlhelp==1.0.3
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==1.0.3
-sphinxcontrib-serializinghtml==1.1.4
-spyder==4.2.1
 SQLAlchemy==1.3.22
 stevedore==3.3.0
 style==1.1.0
@@ -105,4 +98,3 @@ widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.12.1
 xgboost==1.3.1
-xlrd==2.0.1
